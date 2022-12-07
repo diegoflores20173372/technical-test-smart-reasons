@@ -118,6 +118,6 @@ export default {
 </script>
 <style scoped>
 .table_style {
-    padding: 30px;
+    padding: 80px;
 }
 </style>

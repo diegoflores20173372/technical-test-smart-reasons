@@ -170,10 +170,10 @@ export default {
 </script>
 <style scoped>
 .style_form_display {
-    padding: 20px;
+    padding: 50px;
 }
 
 .table_style {
-    padding: 30px;
+    padding: 80px;
 }
 </style>
