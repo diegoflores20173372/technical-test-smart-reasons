@@ -42,7 +42,7 @@
                 </v-table>
             </v-card>
         </div>
-        
+
     </v-container>
 </template>
 <script lang="ts">
@@ -102,7 +102,7 @@ export default {
             }).then((result) => {
                 if (result.isConfirmed) {
                     Swal.fire('Confirmado', 'Se ha eliminado correctamente la boleta.', 'success')
-                } 
+                }
             })
         }
 
@@ -118,6 +118,6 @@ export default {
 </script>
 <style scoped>
 .table_style {
-    padding: 80px;
+    padding: 30px;
 }
 </style>

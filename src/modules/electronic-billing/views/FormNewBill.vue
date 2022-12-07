@@ -7,29 +7,29 @@
                 <v-form class="style_form_display">
                     <v-row>
                         <v-col cols="12" md="2">
-                            <v-text-field label="DNI" required>                                
+                            <v-text-field label="DNI" required>
                             </v-text-field>
                         </v-col>
                         <v-col cols="12" md="5">
-                            <v-text-field label="RAZÓN SOCIAL" required>                                
+                            <v-text-field label="RAZÓN SOCIAL" required>
                             </v-text-field>
                         </v-col>
                         <v-col cols="12" md="5">
-                            <v-text-field  label="DIRECCIÓN" required>                                
+                            <v-text-field  label="DIRECCIÓN" required>
                             </v-text-field>
                         </v-col>
                     </v-row>
                     <v-row>
                         <v-col cols="12" md="3">
-                            <v-select  :items="['SOLES', 'DÓLARES']" label="MONEDA" required>                                
+                            <v-select  :items="['SOLES', 'DÓLARES']" label="MONEDA" required>
                             </v-select>
                         </v-col>
                         <v-col cols="12" md="3">
-                            <v-select :items="['CONTADO', 'DÉBITO']" label="CONDICIÓN DE PAGO" required>                                
+                            <v-select :items="['CONTADO', 'DÉBITO']" label="CONDICIÓN DE PAGO" required>
                             </v-select>
                         </v-col>
                         <v-col cols="12" md="6">
-                            <v-text-field label="OBSERVACIÓN" required>                                
+                            <v-text-field label="OBSERVACIÓN" required>
                             </v-text-field>
                         </v-col>
                     </v-row>
@@ -75,7 +75,7 @@
                 </v-table>
                 <v-row class="d-flex flex-row-reverse">
                     <v-col cols="12" md="2">
-                        <v-text-field class="p-2" label="TOTAL" v-model="total" required>                                
+                        <v-text-field class="p-2" label="TOTAL" v-model="total" required>
                         </v-text-field>
                     </v-col>
                 </v-row>
@@ -170,10 +170,10 @@ export default {
 </script>
 <style scoped>
 .style_form_display {
-    padding: 50px;
+    padding: 20px;
 }
 
 .table_style {
-    padding: 80px;
+    padding: 30px;
 }
 </style>
